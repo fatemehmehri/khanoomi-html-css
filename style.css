@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+body {
+  background: #f8e8f8;
+}
+
+.header {
+  background: #ab529b;
+  text-align: center;
+  align-items: center;
+  padding: 18px;
+  color: #fff;
+  display: flex;
+  gap: 30px;
+  font-size: 18px;
+  height: 70px;
+}
+.name {
+  display: flex;
+  align-items: center;
+  margin-left: 1100px;
+  /* font-size: large; */
+}
+.pic {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 0%;
+}
+
+.all-item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 90px;
+  gap: 20px;
+}
+
+.item-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 400px;
+  background-color: white;
+  flex-direction: column;
+  border-radius: 20px;
+}
+.discount-price {
+  display: flex;
+  gap: 60px;
+  justify-content: center;
+  margin: 20px;
+}
+.text-item {
+  direction: rtl;
+}
+
+.price {
+  display: flex;
+  padding: 20px;
+  color: white;
+  align-items: center;
+  justify-content: center;
+  width: 70px;
+  height: 30px;
+  background-color: #ab529b;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.discount {
+  padding: 5px;
+  /* background-color:#d467c0; */
+  color: #ab529b;
+  font-size: large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  -o-border-radius: 50px;
+}
+
+.added {
+  display: flex;
+  padding: 20px;
+  color: white;
+  align-items: center;
+  width: 100px;
+  height: 30px;
+  background-color: #ab529b;
+  border-radius: 20px;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+  margin-top: 25px;
+  margin-right: 80px;
+}
+
+.offer {
+  color: #4f2547;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+  font-size: large;
+}
+
+.img-offer {
+  flex-wrap: wrap;
+  gap: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  -ms-border-radius: 20px;
+  -o-border-radius: 20px;
+}
+.footer {
+  font-size: large;
+  height: 100px;
+  flex-direction: column;
+  color: white;
+  background-color: #ab529b;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 30px;
+  /* padding: 20px; */
+}
